@@ -64,13 +64,13 @@ html
 {
    min-height:100px;
    height: calc(100vh - 200px);
-   margin-left: auto;
-   margin-right: auto;
-   background-color: coral;
    width: fit-content;
+   max-width: 100vw;
+   margin:50px auto 0 auto;
+   
+   background-color: coral;
    border-radius: var(--borderRadius);
    box-shadow: 0px 10px 20px black; 
-   margin-top: 50px;
    overflow: auto;
 }
 
@@ -84,18 +84,20 @@ html
 /*TABLE==========================================*/
 .c-table
 {
-  width: 100%;
+  max-width:100%;
   height: 100%;
   background-color:lime;
   border-radius: var(--borderRadius);
   border-collapse: separate;
   border-spacing: 0;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 
 
 
-.column-text
+.column-content
 {
     display: flex;
     justify-content: center;
