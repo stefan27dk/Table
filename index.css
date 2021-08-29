@@ -95,17 +95,12 @@ html
 
 
 
-.column-icon
-{
-    position: relative;
-}
-
-
 .column-text
 {
-    display: inline-flex;
-    
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
 }
 
 /*T-head============================================*/
@@ -125,8 +120,9 @@ html
     border-right: 1px solid rgb(143, 158, 161);
     position: sticky;
     top: 0;
-    z-index: 100;
-    text-align: center;
+    z-index: 100; 
+    /* text-align: center; */
+    /* justify-content: center; */
     /* box-shadow: inset 1px 0px 0 #000000; */
 }
 
